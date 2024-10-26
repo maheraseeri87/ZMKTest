@@ -1,4 +1,4 @@
-if SHIELD_slabKBD
+if SHIELD_slabKBL
 
 config ZMK_KEYBOARD_NAME
     default "slabKB"
@@ -6,17 +6,11 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-config ZMK_USB
-    default y
-
 endif
 
-if SHIELD_slabKBL || SHIELD_slabKBR || SHIELD_slabKBD
+if SHIELD_slabKBL || SHIELD_slabKBR
 
 config ZMK_SPLIT
-    default y
-
-config ZMK_BLE
     default y
 
 endif

@@ -7,6 +7,5 @@ requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
-  - slabKBD
   - slabKBL
   - slabKBR
