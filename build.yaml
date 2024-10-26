@@ -26,3 +26,4 @@ include:
     shield: settings_reset
   - board: seeeduino_xiao_ble
     shield: slabKBD
+    snippet: zmk-usb-logging
