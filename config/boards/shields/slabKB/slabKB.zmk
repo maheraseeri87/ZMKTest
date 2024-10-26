@@ -3,8 +3,7 @@ id: slabKB
 name: The Slab Keyboard
 type: shield
 url: https://github.com/maheraseeri87/ZMKTest
-requires: [xiao_ble]
-exposes: []
+requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
