@@ -19,4 +19,8 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: slabKB
+    shield: slabKBD
+  - board: seeeduino_xiao_ble
+    shield: slabKBL
+  - board: seeeduino_xiao_ble
+    shield: slabKBR
