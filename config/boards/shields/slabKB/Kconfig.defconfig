@@ -1,7 +1,7 @@
 if SHIELD_slabKBD
 
 config ZMK_KEYBOARD_NAME
-    default "slabKBD"
+    default "slabKB"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
