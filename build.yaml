@@ -24,5 +24,5 @@ include:
     shield: slabKBR
   - board: seeeduino_xiao_ble
     shield: settings_reset
-#  - board: seeeduino_xiao_ble
-#    shield: slabKBD
+  - board: seeeduino_xiao_ble
+    shield: slabKBD
