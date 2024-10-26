@@ -1,0 +1,22 @@
+if SHIELD_slabKBD
+
+config ZMK_KEYBOARD_NAME
+    default "slabKBD"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_USB
+    default y
+
+endif
+
+if SHIELD_slabKBL || SHIELD_slabKBR || SHIELD_slabKBD
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_BLE
+    default y
+
+endif

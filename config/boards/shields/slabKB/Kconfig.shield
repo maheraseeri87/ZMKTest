@@ -1,0 +1,8 @@
+config SHIELD_slabKBL
+    def_bool $(shields_list_contains, slabKBL)
+
+config SHIELD_slabKBR
+    def_bool $(shields_list_contains, slabKBR)
+
+config SHIELD_slabKBD
+    def_bool $(shields_list_contains, slabKBD)

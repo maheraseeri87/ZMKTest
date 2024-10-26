@@ -1,0 +1,13 @@
+file_format: "1"
+id: slabKB
+name: The Slab Keyboard
+type: shield
+url: https://github.com/maheraseeri87/ZMKTest
+requires: [xiao_ble]
+exposes: []
+features:
+  - keys
+siblings:
+  - slabKBD
+  - slabKBL
+  - slabKBR
